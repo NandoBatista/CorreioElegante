@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CorreioElegante</string>
+
+    <!--Messages-->
+    <string name="send_message_success">Seu correio foi enviado com sucesso</string>
+    <string name="surprise_your_love">Surpreenda seu amor</string>
+    <string name="send_message_and_gifts">Envie mensagens e presentes incríveis</string>
+
+    <!--Titles-->
+    <string name="would_y_like_identify_yourself">Você gostaria de se identificar?</string>
+    <string name="email">Email</string>
+    <string name="surprise">Surpreenda</string>
+
+    <!--Hint-->
+    <string name="hint_name_or_nickname">Digite seu nome ou apelido</string>
+    <string name="hint_choose_meal">Escolha uma refeição abaixo</string>
+
+
+
+    <!--Buttons-->
+    <string name="button_to_start">COMEÇAR</string>
+    <string name="button_send_post">ENVIAR CORREIO</string>
+    
+
+
+
+
+
+
+</resources>
