@@ -8,23 +8,21 @@
 
     <!--Titles-->
     <string name="would_y_like_identify_yourself">Você gostaria de se identificar?</string>
+    <string name="hint_choose_meal">Escolha uma refeição abaixo</string>
     <string name="email">Email</string>
     <string name="surprise">Surpreenda</string>
 
     <!--Hint-->
     <string name="hint_name_or_nickname">Digite seu nome ou apelido</string>
-    <string name="hint_choose_meal">Escolha uma refeição abaixo</string>
-
+    <string name="hint_type_it_email">Digite o email dele ou dela</string>
+    <string name="hint_release_the_verb">Solte o verbo para seu/sua amado(a)</string>
 
 
     <!--Buttons-->
     <string name="button_to_start">COMEÇAR</string>
     <string name="button_send_post">ENVIAR CORREIO</string>
-    
-
-
-
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
