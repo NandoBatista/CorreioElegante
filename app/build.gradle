@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+apply from: '../config/detekt/detekt.gradle'
+
 android {
     compileSdk 32
 

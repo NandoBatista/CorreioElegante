@@ -6,9 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.findNavController
 import com.batista.correioelegante.R
 
 class RegisterMessageFragment : Fragment() {
+
+    private var _binding: RegisterMessageFragment? = null
+    @Suppress("UnusedPrivateMember")
+    private val binding: RegisterMessageFragment = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
