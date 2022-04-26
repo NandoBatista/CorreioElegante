@@ -1,13 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.views.register.RegisterMessageFragment">
+    tools:context=".presentation.views.home.HomeFragment">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textview_title_like_yourself"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="@string/title_would_y_like_identify_yourself"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutRegisterMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription">
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintBottom_toTopOf="@id/linearLayoutRegisterMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_title_like_yourself"
+        android:layout_marginBottom="22dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputlayout_name_or_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputlayout"
+            android:hint="@string/hint_name_or_nickname"
+            android:maxLength="32" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutRegisterMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_cardview"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:src="@drawable/ic_loading"
+            tools:ignore="ContentDescription">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textview_surprise_your_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/title_choose_meal"
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/primary_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_primary_logo_register_message"
+                tools:ignore="ContentDescription">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/second_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_second_logo_register_message"
+                tools:ignore="ContentDescription">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/third_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_third_logo_register_message"
+                tools:ignore="ContentDescription">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/fourth_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_fourth_logo_register_message"
+                tools:ignore="ContentDescription">
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/title_email"
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputlayout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="42"
+                android:background="@drawable/inputlayout"
+                android:hint="@string/hint_type_it_email" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/title_surprise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/title_surprise"
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputlayout_surprise"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLength="60"
+                android:background="@drawable/inputlayout"
+                android:hint="@string/hint_release_the_verb"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="42dp"
+            android:maxLines="6"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppinssemibold"
+            android:background="@drawable/oval"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/button_send_post">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

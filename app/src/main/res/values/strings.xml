@@ -7,10 +7,10 @@
     <string name="send_message_and_gifts">Envie mensagens e presentes incríveis</string>
 
     <!--Titles-->
-    <string name="would_y_like_identify_yourself">Você gostaria de se identificar?</string>
-    <string name="hint_choose_meal">Escolha uma refeição abaixo</string>
-    <string name="email">Email</string>
-    <string name="surprise">Surpreenda</string>
+    <string name="title_would_y_like_identify_yourself">Você gostaria de se identificar?</string>
+    <string name="title_choose_meal">Escolha uma refeição abaixo</string>
+    <string name="title_email">Email</string>
+    <string name="title_surprise">Surpreenda</string>
 
     <!--Hint-->
     <string name="hint_name_or_nickname">Digite seu nome ou apelido</string>
@@ -21,8 +21,5 @@
     <!--Buttons-->
     <string name="button_to_start">COMEÇAR</string>
     <string name="button_send_post">ENVIAR CORREIO</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
 </resources>
