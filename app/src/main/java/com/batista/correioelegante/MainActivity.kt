@@ -1,9 +1,10 @@
 package com.batista.correioelegante
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
-import androidx.navigation.NavHostController
 import androidx.navigation.fragment.NavHostFragment
 import com.batista.correioelegante.databinding.ActivityMainBinding
 

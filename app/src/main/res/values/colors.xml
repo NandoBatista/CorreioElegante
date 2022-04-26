@@ -3,6 +3,7 @@
 
     <color name="pink">#E06C88</color>
     <color name="dark_pink">#B73058</color>
+    <color name="pink_status_bar">#82002f</color>
     <color name="gray_light">#FF9CABC2</color>
     <color name="green">#FF3BB54A</color>
     <color name="dark_gray">#FF2F394B</color>

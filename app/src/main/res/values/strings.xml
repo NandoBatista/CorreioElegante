@@ -22,4 +22,7 @@
     <string name="button_to_start">COMEÇAR</string>
     <string name="button_send_post">ENVIAR CORREIO</string>
 
+    <!--Exceptions-->
+    <string name="error_app_not_installed">O aplicativo não está instalado</string>
+
 </resources>

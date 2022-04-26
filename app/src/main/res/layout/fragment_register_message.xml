@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.views.home.HomeFragment">
+    tools:context=".presentation.views.register.RegisterMessageFragment">
 
     <TextView
         android:id="@+id/textview_title_like_yourself"
@@ -134,7 +134,8 @@
                 android:id="@+id/inputlayout_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:maxLength="42"
+                android:maxLength="100"
+                android:inputType="textEmailAddress"
                 android:background="@drawable/inputlayout"
                 android:hint="@string/hint_type_it_email" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -160,13 +161,13 @@
                 android:id="@+id/inputlayout_surprise"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:maxLength="60"
+                android:maxLength="100"
                 android:background="@drawable/inputlayout"
                 android:hint="@string/hint_release_the_verb"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_start"
+            android:id="@+id/button_send_email"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="42dp"

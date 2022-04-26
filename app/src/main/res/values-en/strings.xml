@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CorreioElegante</string>
+
+    <!--Messages-->
+    <string name="send_message_success">Your mail was sent successfully</string>
+    <string name="surprise_your_love">Surprise your love</string>
+    <string name="send_message_and_gifts">Send amazing messages and gifts</string>
+
+    <!--Titles-->
+    <string name="title_would_y_like_identify_yourself">Would you like to identify yourself?</string>
+    <string name="title_choose_meal">Choose a meal below</string>
+    <string name="title_email">Email</string>
+    <string name="title_surprise">Surprise</string>
+
+    <!--Hint-->
+    <string name="hint_name_or_nickname">Enter your name or nickname</string>
+    <string name="hint_type_it_email">Enter his or her email</string>
+    <string name="hint_release_the_verb">Release the verb to your loved one</string>
+
+
+    <!--Buttons-->
+    <string name="button_to_start">START</string>
+    <string name="button_send_post">SEND MAIL</string>
+
+    <!--Exceptions-->
+    <string name="error_app_not_installed">Required App is not installed</string>
+</resources>

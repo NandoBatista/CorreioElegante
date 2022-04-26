@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">CorreioElegante</string>
+
+        <!--Messages-->
+        <string name="send_message_success">Su correo fue enviado con éxito</string>
+        <string name="surprise_your_love">Sorprende a tu amor</string>
+        <string name="send_message_and_gifts">Envíe mensajes y regalos increíbles</string>
+
+        <!--Titles-->
+        <string name="title_would_y_like_identify_yourself">Te gustaría identificarte?</string>
+        <string name="title_choose_meal">Elija una comida a continuación</string>
+        <string name="title_email">Correo electrónico</string>
+        <string name="title_surprise">Sorpresa</string>
+
+        <!--Hint-->
+        <string name="hint_name_or_nickname">Ingrese su nombre o apellido</string>
+        <string name="hint_type_it_email">Ingrese su correo electrónico</string>
+        <string name="hint_release_the_verb">Libere el verbo a su ser querido</string>
+
+
+        <!--Buttons-->
+        <string name="button_to_start">COMENZAR</string>
+        <string name="button_send_post">ENVIAR CORREO</string>
+
+        <!--Exceptions-->
+        <string name="error_app_not_installed">La aplicación requerida no está instalada</string>
+
+</resources>
