@@ -218,11 +218,7 @@ exceptions:
     active: true
     ignoreLabeled: false
   SwallowedException:
-<<<<<<< HEAD
     active: false
-=======
-    active: true
->>>>>>> 41c6dd34c527f10a0d9c07147ec368298a17e166
     ignoredExceptionTypes:
       - 'InterruptedException'
       - 'MalformedURLException'
