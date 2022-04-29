@@ -6,9 +6,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+<<<<<<< HEAD
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+=======
+import androidx.appcompat.app.AppCompatActivity
+>>>>>>> 41c6dd34c527f10a0d9c07147ec368298a17e166
 import androidx.navigation.fragment.findNavController
 import com.batista.correioelegante.R
 import com.batista.correioelegante.databinding.FragmentRegisterMessageBinding
@@ -16,12 +20,18 @@ import com.batista.correioelegante.databinding.FragmentRegisterMessageBinding
 
 class RegisterMessageFragment : Fragment() {
 
+<<<<<<< HEAD
     private var _binding: FragmentRegisterMessageBinding? = null
     private val binding: FragmentRegisterMessageBinding get() = _binding!!
     private val Fragment.packageManager get() = activity?.packageManager
 //    private var viewModel = ViewModelProvider(this)[RegisterMessageViewModel::class.java]
 
 
+=======
+    private var _binding: RegisterMessageFragment? = null
+    @Suppress("UnusedPrivateMember")
+    private val binding: RegisterMessageFragment = _binding!!
+>>>>>>> 41c6dd34c527f10a0d9c07147ec368298a17e166
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
