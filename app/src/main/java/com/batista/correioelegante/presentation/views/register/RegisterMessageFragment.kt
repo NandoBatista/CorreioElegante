@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.findNavController
 import com.batista.correioelegante.R
 import com.batista.correioelegante.databinding.FragmentRegisterMessageBinding
@@ -53,10 +52,12 @@ class RegisterMessageFragment : Fragment() {
                 putExtra(Intent.EXTRA_TEXT, message)
 
             }
-            if (packageManager?.resolveActivity(intent, 0) != null) {
+            @Suppress("TooGenericExceptionCaught")
+            try {
+                (packageManager?.resolveActivity(intent, 0) != null)
                 startActivity(intent)
                 findNavController().navigate(R.id.action_registerMessageFragment_to_confirmationMailFragment)
-            } else {
+            } catch (ex: Exception) {
                 val intentException = Intent(
                     Intent.ACTION_VIEW, Uri.parse(
                         "https://play.google.com/store/apps/details?id=com.google.android.gm"
